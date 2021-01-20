@@ -1,0 +1,208 @@
+/* Navigation */
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4A419A;
+    height: 64px;
+    padding: 24px 40px 24px 40px;
+}
+
+#navBar img {
+    position: absolute;
+    left: 36px;
+    width: 156px;
+}
+
+#navigation {
+    display: flex;
+    cursor: pointer;
+}
+
+#navigation p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
+#click {
+    display: flex;
+    align-items: center;
+    right: 72px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#letsChat {
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 48px;
+    width: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#letsChat p {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+#letsChat:hover {
+    background-color: white;
+}
+
+#letsChat:hover p {
+    color:  #4A419A;
+}
+
+/* Case Studies Header*/
+
+.content {
+    text-align: center;
+}
+
+#header {
+    font-family: Montserrat;
+    font-size: 48px;
+    color: #46454C;
+    font-weight: 500;
+}
+
+#body {
+    font-family: Raleway;
+    font-size: 24px;
+    color: #46454C;
+    font-weight: 500;
+}
+
+/* Case Studies Hover*/
+
+* {
+    box-sizing: border-box
+}
+
+.container {
+  position: relative;
+  width: 528px;
+  height: 372px;
+  margin: 16px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+#text {
+    position:absolute;
+    bottom: 0;
+    padding: 16px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.overlay p {
+    font-family: Raleway;
+    font-size: 24px;
+}
+
+/* Case Studies Grid */
+
+#work {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "trippie givingForGood tradesies"
+    "calFire pillPod istePersonas"
+    ;
+  }
+
+
+/* Connect */
+
+#connect {
+    background-color: #E8E9F4;
+}
+
+#chat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 144px;
+}
+
+#chat h1 {
+    font-family: Montserrat;
+    color: #46454C;
+    font-size: 32px; 
+    font-weight: 500;
+}
+
+#button {
+    border: solid 2px #4A419A;
+    border-radius: 8px;
+    height: 64px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#button p {
+    font-family: Montserrat;
+    font-size: 24px;
+    color: #4A419A;
+    text-align: center;
+    font-weight: 500;
+}
+
+#button:hover {
+    background-color: #4A419A;
+}
+
+#button:hover p {
+    color: white;
+}
